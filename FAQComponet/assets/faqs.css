@@ -1,0 +1,12 @@
+
+ul li {
+    list-style-type: none;
+}
+
+.question{
+    margin-bottom: 6px;
+}
+
+.question button {
+    margin-right: 10px;
+}

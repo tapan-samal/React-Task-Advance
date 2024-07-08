@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "What is React?",
+      "answer": "React is a light-weight open source JavaScript library for building user interfaces. It allows developers to create reusable UI components and build interactive, efficient, and single-page applications."
+    },
+    {
+      "question": "What are the key features of React?",
+      "answer": "Some key features of React include the use of a virtual DOM for performance optimization, component-based architecture, JSX syntax for defining components, and a unidirectional data flow with the help of Redux library."
+    },
+    {
+      "question": "How to create a React component?",
+      "answer": "To create a React component, we can use either class components or functional components. Class components extend the React.Component class, while functional components are stateless and use the `function` keyword. Components can have a `render` method that returns the UI structure."
+    },
+    {
+      "question": "What is JSX?",
+      "answer": "JSX (JavaScript XML) is a syntax extension for JavaScript recommended by React. It allows you to write HTML-like code in your JavaScript files, making it easier to describe the structure of React components. JSX gets transformed into JavaScript during the build process by babel transpiler."
+    },
+    {
+      "question": "How does React handle state?",
+      "answer": "React components can have state, which represents the data that the component manages. State can be initialized in the constructor, and you can update it using the `setState` method. When the state changes, React re-renders the component to reflect the updated state."
+    }
+  ]
+}

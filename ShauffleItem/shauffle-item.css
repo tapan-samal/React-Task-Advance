@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: #333;
+    padding: 80px;
+    color: aliceblue;
+    letter-spacing: 1px;
+  }
+
+  .container ul li {
+    font-size: 21px;
+  }

@@ -1,0 +1,42 @@
+.emi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: #333;
+  padding: 50px;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  width: 8rem;
+  background-color: aliceblue;
+  width: 14rem;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+
+.emi-container button {
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 550;
+  cursor: pointer;
+}
+.btn{
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}

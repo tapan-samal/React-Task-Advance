@@ -17,7 +17,7 @@ export const debounce = (func, delay) => {
 //Trailing option controls the function should be executed after certain delay
 export const debounce = (func, delay, options = {}) => {
   let timeoutId;
-  const { leading, trailing } = options;
+  const { leading = false, trailing = true } = options;
 
   return (...args) => {
     if (timeoutId) {

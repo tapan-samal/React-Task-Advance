@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container{
+    background-color: #d1cfcf;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+}
+
+.box-container h1{
+    color: #0027d3;
+    letter-spacing: 1.2px;
+}
+
+.box-element{
+    width: 21%;
+    background-color: #192836;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 22px;
+    border-radius: 8px;
+}
+
+.check-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-box input{
+    cursor: pointer;
+    height: 22px;
+    width: 18px;
+}
+
+.box-element button{
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    padding: 4px;
+    margin-top: 16px;
+    outline: none;
+    color: #0027d3;
+    cursor: pointer;
+}
+
+.box-element button:hover{
+    background-color: #cecece;
+    transition: ease-in 0.2s;
+}

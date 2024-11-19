@@ -1,0 +1,30 @@
+.a-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #494949;
+
+  padding-top: 10%;
+}
+
+.section {
+  width: 36rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  background-color: cornflowerblue;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.title{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.icon{
+    font-size: 22px;
+}

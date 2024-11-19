@@ -1,0 +1,33 @@
+.container {
+  background-color: #2b2b2b;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digi-clock {
+  height: 220px;
+  width: 320px;
+  background-color: blue;
+  border-radius: 22px;
+  text-align: center;
+}
+
+.digi-clock h1 {
+  color: beige;
+  padding-top: 35px;
+  letter-spacing: 1.2px;
+}
+
+.digi-clock p {
+  font-size: 60px;
+  font-weight: 900;
+  background-color: black;
+  width: 250px;
+  color: aliceblue;
+  text-align: center;
+  margin: 26px;
+  padding: 10px;
+  border-radius: 12px;
+  letter-spacing: 1.5px;
+}

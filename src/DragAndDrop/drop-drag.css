@@ -1,0 +1,84 @@
+.main{
+    text-align: center;
+}
+.main input{
+    width: 300px;
+    height: 32px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+}
+.board{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    letter-spacing: 1.2px;
+    margin-top: 2rem;
+}
+.todo{
+    width: 30%;
+    height: 400px;
+}
+.todo h2{
+    background-color: lightblue;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+.doing{
+    width: 30%;
+    height: 400px;
+    margin-left: 2rem;
+}
+.doing h2{
+    background-color: rgb(209, 209, 40);
+    padding: 10px 0;
+    border-radius: 4px;
+}
+.done{
+    width: 30%;
+    height: 400px;
+    margin-left: 2rem;
+}
+.done h2{
+    background-color: lightgreen;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+.task-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    border: 0.7px solid lightgray;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: grab;
+    margin-top: 1rem;
+    font-size: 18px;
+    background-color: rgb(221, 252, 207);
+}
+.task-item:hover{
+    background-color: rgb(210, 233, 217);
+}
+.btns{
+    display: flex;
+    padding-right: 1rem;
+    padding-left: .6rem;
+}
+.btns span{
+    /* display: flex; */
+    cursor: pointer;
+    /* margin-right: 4px; */
+    padding: 4px 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.btns span:hover{
+    background-color: orange;
+}
+

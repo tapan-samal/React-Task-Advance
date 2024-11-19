@@ -1,0 +1,44 @@
+.container {
+
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+
+  .slider {
+    position: relative;
+    width: 100%;
+
+    .image-style {
+      width: 100%;
+    }
+
+    h2 {
+      position: absolute;
+      top: 22.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      letter-spacing: 1.5px;
+    }
+  }
+
+  .btns {
+    position: absolute;
+    top: 25.8rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 0.6rem;
+    button {
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      padding: 4px 12px;
+      background-color: #aaecd6;
+      opacity: 0.4;
+      cursor: pointer;
+    }
+  }
+}

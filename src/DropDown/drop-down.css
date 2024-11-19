@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: aliceblue;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+.dropdown-container h1{
+    margin-bottom: 16px;
+}
+
+.select{
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.dropdown-btn{
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin-bottom: 16px;
+    background-color: cadetblue;
+    border: none;
+}

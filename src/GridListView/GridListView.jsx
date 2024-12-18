@@ -1,7 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./grid-list.css";
 
 const GridListView = () => {
   const [products, setProducts] = useState([]);

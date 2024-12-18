@@ -1,4 +1,3 @@
-import React from "react";
 import Accordion from "./Accrodion/Accordion"
 import Carousel from "./Carousel/Carousel";
 import SelectCheckBox from "./CheckboxValidation/SelectCheckBox";
@@ -20,6 +19,7 @@ import ShauffleItem from "./ShauffleItem/ShauffleItem";
 import StateLiftingUp from "./StateLiftingUp/StateLiftingUp";
 import SwapListItems from "./SwapListItems/SwapListItems";
 import TrafficLight from "./TrafficLight/TrafficLIght";
+import UpdateData from "./UpdateTableData/UpdateData";
 import UseContext from "./UseContext/UseContext";
 import VsFileExplorer from "./VsCodeExplorer/FileExplorer";
 
@@ -46,8 +46,9 @@ const App = () => {
   {/* <StateLiftingUp /> */}
   {/* <SwapListItems /> */}
   {/* <TrafficLight /> */}
-  <UseContext />
-  <VsFileExplorer />
+  <UpdateData />
+  {/* <UseContext /> */}
+  {/* <VsFileExplorer /> */}
   </>;
 };
 

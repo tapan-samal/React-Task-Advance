@@ -1,4 +1,4 @@
-export default explorer = {
+const explorer = {
     id: "1",
     name: "root",
     isFolder: true,
@@ -69,4 +69,4 @@ export default explorer = {
     ],
   };
   
-  // export default explorer;
+  export default explorer;

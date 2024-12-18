@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useTraverseTree } from "./components/CustomHook"; // Adjust the path here
-import Folder from "./components/FolderData";
-import {explorer} from "./components/FolderData"; // Assuming this is the default export
+import Folder from "./components/FolderData.jsx";
 import "./components/explorer.css";
 
 const VsFileExplorer = () => {
@@ -19,6 +18,6 @@ const VsFileExplorer = () => {
       <Folder handleInsertNode={handleInsertNode} explorer={explorerData} />
     </div>
   );
-}
+};
 
 export default VsFileExplorer;

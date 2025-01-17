@@ -11,7 +11,16 @@ const RenderComponent = ({
   const subjects = students.length > 0 ? Object.keys(students[0].marks) : [];
 
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "2rem",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "2rem",
+      }}
+    >
       <table border="1" style={{ borderCollapse: "collapse", width: "50%" }}>
         <thead>
           <tr>
@@ -40,7 +49,14 @@ const RenderComponent = ({
           ))}
         </tbody>
       </table>
-      <div style={{ marginTop: "2rem", display: "flex", gap: "1rem" }}>
+      <div
+        style={{
+          marginTop: "2rem",
+          display: "flex",
+          gap: "1rem",
+          alignItems: "center",
+        }}
+      >
         <select
           style={{ padding: "6px" }}
           defaultValue=""
@@ -70,15 +86,20 @@ const RenderComponent = ({
           ))}
         </select>
         <input
+          style={{ padding: "6px" }}
           type="number"
           placeholder="Enter Mark"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <button type="button" onClick={handleUpdateTotalMark}>
-          Update
-        </button>
       </div>
+      <button
+        style={{ margin: "0" }}
+        type="button"
+        onClick={handleUpdateTotalMark}
+      >
+        Update
+      </button>
     </div>
   );
 };

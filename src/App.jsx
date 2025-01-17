@@ -1,4 +1,5 @@
 import Accordion from "./Accrodion/Accordion"
+import Calendar from "./Calender/Calendar";
 import Carousel from "./Carousel/Carousel";
 import SelectCheckBox from "./CheckboxValidation/SelectCheckBox";
 import ContactManager from "./ContactManager/ContactManager";
@@ -19,7 +20,7 @@ import ShauffleItem from "./ShauffleItem/ShauffleItem";
 import StateLiftingUp from "./StateLiftingUp/StateLiftingUp";
 import SwapListItems from "./SwapListItems/SwapListItems";
 import TrafficLight from "./TrafficLight/TrafficLIght";
-import UpdateData from "./UpdateTableData/UpdateData";
+import UpdateTableData from "./UpdateTableData/UpdateTableData";
 import UseContext from "./UseContext/UseContext";
 import VsFileExplorer from "./VsCodeExplorer/FileExplorer";
 
@@ -46,9 +47,10 @@ const App = () => {
   {/* <StateLiftingUp /> */}
   {/* <SwapListItems /> */}
   {/* <TrafficLight /> */}
-  <UpdateData />
+  {/* <UpdateTableData /> */}
   {/* <UseContext /> */}
   {/* <VsFileExplorer /> */}
+  <Calendar />
   </>;
 };
 

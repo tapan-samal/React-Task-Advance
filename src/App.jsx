@@ -1,4 +1,5 @@
 import Accordion from "./Accrodion/Accordion"
+import SearchBar from "./AutoCompleteSearchBar/SearchBar";
 import Calendar from "./Calender/Calendar";
 import Carousel from "./Carousel/Carousel";
 import SelectCheckBox from "./CheckboxValidation/SelectCheckBox";
@@ -50,7 +51,8 @@ const App = () => {
   {/* <UpdateTableData /> */}
   {/* <UseContext /> */}
   {/* <VsFileExplorer /> */}
-  <Calendar />
+  {/* <Calendar /> */}
+  <SearchBar />
   </>;
 };
 

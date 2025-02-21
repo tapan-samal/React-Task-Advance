@@ -15,6 +15,7 @@ import FormValidation from "./FormValidation/FormValidation";
 import GridListView from "./GridListView/GridListView";
 import LazyLoading from "./LazyLoading/LazyLoading";
 import MultiFilter from "./MultiFilter/MultiFilter";
+import Pagination from "./Pagination/Pagination";
 import PasswordGenerator from "./PasswordGenerator/PasswordGen";
 import ProgressBar from "./ProgressBar/ProgressBar";
 import ShauffleItem from "./ShauffleItem/ShauffleItem";
@@ -55,6 +56,7 @@ const App = () => {
   {/* <Calendar /> */}
   {/* <SearchBar /> */}
   <Tabform />
+  {/* <Pagination /> */}
   </>;
 };
 

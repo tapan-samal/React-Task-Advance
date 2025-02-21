@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Profile from "./Profile";
-import Interests from "./Interests";
-import Settings from "./Settings";
+import Profile from "./components/Profile";
+import Interests from "./components/Interests";
+import Settings from "./components/Settings";
 import "./tab-form.css";
 
 const Tabform = () => {

@@ -1,0 +1,42 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product-container {
+  margin: 10px;
+}
+
+.products {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 240px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.product-img {
+  width: 180px;
+  height: 180px;
+}
+
+.page-number {
+  font-size: 1rem;
+  border: 1px solid black;
+  padding: 3px 4px;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.active-page{
+    background-color: aqua;
+}

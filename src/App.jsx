@@ -20,6 +20,7 @@ import ProgressBar from "./ProgressBar/ProgressBar";
 import ShauffleItem from "./ShauffleItem/ShauffleItem";
 import StateLiftingUp from "./StateLiftingUp/StateLiftingUp";
 import SwapListItems from "./SwapListItems/SwapListItems";
+import Tabform from "./TabForm/Tabform";
 import TrafficLight from "./TrafficLight/TrafficLIght";
 import UpdateTableData from "./UpdateTableData/UpdateTableData";
 import UseContext from "./UseContext/UseContext";
@@ -52,7 +53,8 @@ const App = () => {
   {/* <UseContext /> */}
   {/* <VsFileExplorer /> */}
   {/* <Calendar /> */}
-  <SearchBar />
+  {/* <SearchBar /> */}
+  <Tabform />
   </>;
 };
 

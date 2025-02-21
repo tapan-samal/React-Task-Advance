@@ -1,0 +1,52 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.tabs-container {
+  display: flex;
+  margin-inline: 36%;
+  margin-top: 2rem;
+}
+.tab {
+    border: 1px solid grey;
+    background-color: #f6f6f6;
+    padding: 6px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.tab-body{
+    margin-inline: 36%;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    height: 260px;
+}
+
+.profile-tab, .interests-tab, .settings-tab{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.click-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+button{
+    margin-top: .6rem;
+}
+
+.error-message{
+    color: red;
+    display: block;
+}
+
+input{
+    padding: 6px 10px;
+    /* width: 90%; */
+}

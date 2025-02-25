@@ -11,6 +11,7 @@ import DropDown from "./DropDown/DropDown";
 import DynamicCircle from "./DynamicCircle/Circle";
 import EmiCalculator from "./EmiCalculator/EmiCalculator";
 import FAQComponent from "./FAQComponet/FAQComponent";
+import FileExplorer from "./FileExplorer/FileExplorer";
 import FormValidation from "./FormValidation/FormValidation";
 import GridListView from "./GridListView/GridListView";
 import LazyLoading from "./LazyLoading/LazyLoading";
@@ -55,8 +56,9 @@ const App = () => {
   {/* <VsFileExplorer /> */}
   {/* <Calendar /> */}
   {/* <SearchBar /> */}
-  <Tabform />
+  {/* <Tabform /> */}
   {/* <Pagination /> */}
+  <FileExplorer />
   </>;
 };
 

@@ -18,7 +18,7 @@
 .product-card {
   border: 1px solid black;
   border-radius: 4px;
-  width: 240px;
+  width: 250px;
   padding: 0.5rem;
   text-align: center;
 }
@@ -26,6 +26,10 @@
 .product-img {
   width: 180px;
   height: 180px;
+}
+
+.pg-component{
+  margin-top: 2rem;
 }
 
 .page-number {
@@ -39,4 +43,9 @@
 
 .active-page{
     background-color: aqua;
+}
+
+.loading{
+  margin: 16rem;
+
 }

@@ -1,0 +1,18 @@
+
+
+.render-list{
+    text-align: left;
+    margin-left: 1.2rem;
+}
+
+.plus-minus{
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.add-delete{
+    font-size: .7rem;
+    cursor: pointer;
+    margin-left: 5px;
+}

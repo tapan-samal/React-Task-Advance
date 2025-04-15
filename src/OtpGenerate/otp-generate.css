@@ -1,0 +1,19 @@
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.otp-container{
+    display: flex;
+    justify-content: center;
+    gap: .6rem;
+    margin-top: 4rem;
+
+    .otp-input{
+        height: 3rem;
+        width: 3.2rem;
+        font-size: 1.6rem;
+    }
+}
+

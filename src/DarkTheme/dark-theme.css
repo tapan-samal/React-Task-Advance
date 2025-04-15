@@ -1,0 +1,72 @@
+:root {
+  --primary-bg: #fff;
+  --secondary-bg: #d6d6de;
+  --text-primary: #181818;
+  --text-secondary: #181818;
+  --accent-color: #646cff;
+}
+
+:root.dark {
+  --primary-bg: #1a1a1a;
+  --secondary-bg: #2d2d2d;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --accent-color: #646cff;
+}
+
+
+.navbar {
+  list-style: none;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: var(--secondary-bg);
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  letter-spacing: 1.1px;
+}
+
+.theme-button {
+  position: absolute;
+  right: 2em;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0.25rem;
+  }
+}

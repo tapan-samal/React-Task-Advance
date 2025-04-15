@@ -4,6 +4,7 @@ import Calendar from "./Calender/Calendar";
 import Carousel from "./Carousel/Carousel";
 import SelectCheckBox from "./CheckboxValidation/SelectCheckBox";
 import ContactManager from "./ContactManager/ContactManager";
+import DarkTheme from "./DarkTheme/DarkTheme";
 import SearchWithDebounce from "./Debounce/SeacrchApi";
 import DigitalClock from "./DigitalClock/DigitalClock";
 import DragAndDrop from "./DragAndDrop/DragAndDrop";
@@ -16,6 +17,7 @@ import FormValidation from "./FormValidation/FormValidation";
 import GridListView from "./GridListView/GridListView";
 import LazyLoading from "./LazyLoading/LazyLoading";
 import MultiFilter from "./MultiFilter/MultiFilter";
+import OtpGenerate from "./OtpGenerate/OtpGenerate";
 import Pagination from "./Pagination/Pagination";
 import PasswordGenerator from "./PasswordGenerator/PasswordGen";
 import ProgressBar from "./ProgressBar/ProgressBar";
@@ -58,7 +60,9 @@ const App = () => {
   {/* <SearchBar /> */}
   {/* <Tabform /> */}
   {/* <Pagination /> */}
-  <FileExplorer />
+  {/* <FileExplorer /> */}
+  {/* <DarkTheme /> */}
+  <OtpGenerate />
   </>;
 };
 
